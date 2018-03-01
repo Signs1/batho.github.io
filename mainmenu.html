@@ -1,0 +1,108 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Main Menu</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="styles/MainMenu.css" rel="stylesheet" type="text/css">
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="script.js"></script>
+</head>
+<body>
+<div class="actionBar" >
+  	
+  
+</div>
+<div class="gridContainer clearfix">
+  
+    <div id="LayoutDiv1">
+             <nav role="navigation">
+                 <div id="menuToggle">
+                   
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                   
+                        <ul id="menu">
+                        
+                            <ul>
+                               <li class='has-sub'><a href='#'>VEHICLE</a>
+                                  <ul>
+                                    <li ><a href="Vehicle_menu.html">MY CAR</a></li>
+                                    <li ><a href="Location.html">LOCATION INFO</a></li>
+                                    <li ><a href="DetailedReport.html">DETAILED REPORT</a></li>
+                                  </ul>
+                                    </li>
+                               <li><a href="Profile.html">PROFILE</a></li>
+                               <li><a href="Household.html">HOUSEHOLD ASSETS</a></li>
+                               <li><a href="Settings.html">SETTINGS</a></li>
+                               <li><a href='#'>PANIC BUTTON</a></li>
+                            </ul>
+                        
+                        </ul>
+                 </div>
+                 
+                 
+            </nav>
+            <div class="settings">
+            <a href="Settings.html">
+            <img src="assets/icons/settings-01.png"/>
+            </a>
+            </div>
+            
+       </div>
+       
+       <div id="LayoutDiv11" class="car_menu img">
+       	<a href="Vehicle_menu.html">
+       <img src="assets/icons/car-01.png" alt="Vehicle" /> </a>
+       <h3>VEHICLE</h3>
+       </div>
+           <div id="LayoutDiv2" class="car_menu">
+            <a href="Profile.html">
+           <img src="assets/icons/profile-01.png" alt="Vehicle" /> </a>
+           <h3>PROFILE</h3>
+           </div>
+           
+           <div id="LayoutDiv3" class="car_menu">
+            <a href="">
+           <img src="assets/icons/panic button-01.png" alt="Vehicle" /> </a>
+           <h3>PANIC BUTTON</h3>
+           </div>
+       <div id="LayoutDiv4" class="car_menu">
+       	<a href="Vehicle_menu.html">
+       <img src="assets/icons/Households_Assets-01.png" alt="Vehicle" /> </a>
+       <h3>HOUSEHOLD ASSETS</h3>
+       </div>
+       
+       
+       
+       
+       
+       
+       
+</div>
+  
+</body>
+</html>

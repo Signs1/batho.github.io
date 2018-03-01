@@ -1,0 +1,122 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="Register.css" rel="stylesheet" type="text/css">
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+  <div id="LayoutDiv1" class="header">
+  	<h2>Register</h2>
+  </div>
+  
+  <div id="LayoutDiv1" class="form">
+ <form>
+     <div class="row">
+      <h4>Personal Information</h4>
+      <div class="input-group input-group-icon">
+        <input type="text" placeholder="Full Name"/>
+      </div>
+      <div class="input-group input-group-icon">
+        <input type="text" placeholder="Last Name"/>
+      </div>     
+      
+      <div class="input-group input-group-icon">
+        <input type="date" placeholder="Date Of Birth"/>
+      </div>
+      <div class="input-group input-group-icon">
+      <h4>Gender</h4>
+      <select name="Gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+       </select>
+      </div>
+      
+      <div class="row">
+      <h4>Account Information</h4>
+          <div class="input-group input-group-icon">
+        	<input type="email" placeholder="Email Address"/>
+          </div>
+          <div class="input-group input-group-icon">
+            <input type="number" placeholder="Cell Number"/>
+          </div>
+          
+          <div class="input-group input-group-icon">
+            <input type="password" placeholder="Password"/>
+          </div> 
+          <div class="input-group input-group-icon">
+            <input type="password" placeholder="Retype-Password"/>
+          </div> 
+           <div class="input-group input-group-icon">
+            <input type="text" placeholder="Security Question"/>
+          </div> 
+          <div class="input-group input-group-icon">
+            <input type="text" placeholder="Security Answer"/>
+          </div> 
+          
+          
+      </div>
+      
+      <div class="row">
+      <h4>Contact Information</h4>
+          <div class="input-group input-group-icon">
+        	<input type="text" placeholder="Address"/>
+          </div>
+          <div class="input-group input-group-icon">
+            <input type="text" placeholder="City"/>
+          </div>
+          
+          <div class="input-group input-group-icon">
+            <input type="text" placeholder="state"/>
+          </div> 
+          <div class="input-group input-group-icon">
+            <input type="text" placeholder="Zip Code"/>
+          </div> 
+           <div class="input-group input-group-icon">
+            <input type="text" placeholder="country"/>
+          </div>          
+          
+      </div>
+            
+    </div>
+       
+        
+    <div class="row">
+      <h4>Terms and Conditions</h4>
+      <div class="input-group">
+        <input type="checkbox" id="terms"/>
+        <label for="terms">I accept the terms and conditions for signing up to this service, and hereby confirm I have read the privacy policy.</label>
+      </div>
+    </div>
+    
+    <input type="Submit"></form> 
+    
+ </form> 
+ 
+  </div>
+</div>
+</body>
+</html>

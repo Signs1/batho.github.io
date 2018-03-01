@@ -1,0 +1,73 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+<script type="text/javascript">
+    document.getElementById("button").onclick = function () {
+        location.href = "mainmenu.html";
+    };
+</script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+  
+  <div id="LayoutDiv1" class="signup">
+  	<a href="register.html">Signup</a>
+  
+  </div>
+  
+  
+  <div id="LayoutDiv1" class="logo">
+  
+  <img src="assets/icons/contre.png" alt="Contre Logo"/>
+  
+  </div>
+  <div id="LayoutDiv1" class="form">
+  <form action="mainmenu.html">
+  	<input name="Username" placeholder="Username">
+    <input name="Password" placeholder="Password">
+    
+    <a href="mainmenu.html"><input class="button" id="button" type="image" src="assets/icons/button-01.png" alt="Submit"></a>
+    
+
+
+  </form>
+  </div>
+  
+  <div id="LayoutDiv1" class="social_media">
+  	<ul>
+    	<li><a href="https://www.facebook.com/"><img src="assets/icons/Facebook.png"></a></li>
+        <li><a href="https://www.Twitter.com/"><img src="assets/icons/Twitter.png"></a></li>
+        <li><a href="https://www.Instagram.com/"><img src="assets/icons/Instagram.png"></a></li>
+    </ul>
+  </div>
+  
+  
+</div>
+
+
+</body>
+</html>
